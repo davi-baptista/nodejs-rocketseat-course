@@ -1,0 +1,25 @@
+GET http://localhost:3333/users?search=Davi
+
+###
+
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+    "name": "da",
+    "email": "da@example.com"
+}
+
+###
+
+DELETE http://localhost:3333/users/2b8393a8-1eab-4dd5-84be-7ae603dd83e5
+
+###
+
+PUT http://localhost:3333/users/2b8393a8-1eab-4dd5-84be-7ae603dd83e5
+Content-Type: application/json
+
+{
+    "name": "davi",
+    "email": "da@none.com"
+}
