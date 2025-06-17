@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  postgresql:
+    image: 'bitnami/postgresql:latest'
+    container_name: findafriend-postgresql
+    environment:
+      - POSTGRES_USER=docker
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=findafriend
+    ports:
+      - "5432:5432"
