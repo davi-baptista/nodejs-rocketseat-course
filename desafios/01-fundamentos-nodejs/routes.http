@@ -1,0 +1,29 @@
+GET http://localhost:5555/tasks
+
+###
+
+POST http://localhost:5555/tasks
+Content-Type: application/json
+
+{
+    "title": "da@example.com",
+    "description": "da@example.com"
+}
+
+###
+
+DELETE http://localhost:5555/tasks/9b4d5c6b-b863-45a6-8089-6136d5569d46
+
+###
+
+PUT http://localhost:5555/tasks/bd4d17db-1655-40cc-9390-101c96617f3d
+Content-Type: application/json
+
+{
+    "title": "ddd@example.com",
+    "description": "da@example.com"
+}
+
+###
+
+PATCH http://localhost:5555/tasks/44b8f8e5-6b2b-4dcc-ab6e-1cef2390cf29/complete
