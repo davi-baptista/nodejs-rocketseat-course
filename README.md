@@ -6,9 +6,9 @@ Este repositório contém os desafios, projetos e anotações realizados durante
 
 - Fundamentos do Node.js
 - Criação de APIs RESTful
-- Express.js
+- Fastify
 - Manipulação de banco de dados (SQLite, PostgreSQL, Prisma)
-- Testes automatizados com Jest
+- Testes automatizados com Vitest
 - Upload de arquivos
 - Autenticação e autorização
 - Trabalhando com middlewares
